@@ -551,15 +551,23 @@
   }
 
   &_2 {
-    
+    top: 435px;
+    left: 214px;
   }
 
   &_3 {
-
+    top: 190px;
+    right: 363px;
   }
 
   &_4 {
+    top: 280px;
+    right: 187px;
+  }
 
+  &_5 {
+    top: 220px;
+    right: 142px;
   }
 
   &__img {
@@ -574,7 +582,16 @@
     font-size: 16px;
     line-height: 27px;
     color: $main-color;
+
+  &__goal {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    color: black;
   }
+  }
+
+  
 }
 
 
