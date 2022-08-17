@@ -44,14 +44,14 @@ ul {
       background-color: $light-color;
     }
   }
-
-    &_light {
-      font-weight: 800;
-      font-size: 16px;
-      line-height: 16px;
-      color: $main-color;
-      background-color: $wite-color;
-      border: 1px solid $wite-color;
+  
+  &_light {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: $main-color;
+    background-color: $wite-color;
+    border: 1px solid $wite-color;
 
     &:hover {
       transition: all .4s;

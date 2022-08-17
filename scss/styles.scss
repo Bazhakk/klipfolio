@@ -662,6 +662,7 @@
     border-radius: 40px;
     background: $bg-color;
     padding-bottom: 190px;
+    padding-top: 80px;
 
     @media screen and (max-width: 1024px) {
       border-radius: 20px;
@@ -670,8 +671,8 @@
   }
 
   &__box {
-    padding: 80px 370px;
-    max-width: 770px;
+    //padding: 80px 370px;
+    max-width: 700px;
     margin: 0 auto;
 
     @media screen and (max-width: 1024px) {
