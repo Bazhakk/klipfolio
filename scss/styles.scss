@@ -1,6 +1,7 @@
 @import "variables";
 @import "fonts";
 @import "common";
+@import "footer";
 
 //HEADER
 .header {
@@ -30,11 +31,23 @@
   }
 }
 
+.mobile-menu {
+  display: none;
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+  }
+}
+
 .main-menu {
   display: flex;
   align-items: center;
   font-size: 13px;
   line-height: 22px;
+
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 
   &__link {
     margin-left: 24px;
