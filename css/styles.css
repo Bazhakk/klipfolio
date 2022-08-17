@@ -549,38 +549,25 @@ ul {
 }
 
 .question {
+  display: flex;
+  align-items: center;
   position: absolute;
-  display: inline;
-  width: 100%;
-  text-align: center;
 }
-.question__item {
-  width: 40%;
+.question_1 {
+  top: 0;
+  left: 214px;
+}
+.question__img {
+  width: 50px;
+  height: 100%;
 }
 .question__text {
+  max-width: 130px;
+  margin-left: 12px;
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
   color: #21264F;
-}
-.question__img {
-  position: absolute;
-}
-.question__img_1 {
-  top: 10px;
-  left: 78px;
-}
-.question__img_2 {
-  bottom: 30px;
-  left: 40px;
-}
-.question__img_3 {
-  top: 130px;
-  right: 190px;
-}
-.question__img_4 {
-  bottom: 122px;
-  right: 187px;
 }
 
 .analytics {

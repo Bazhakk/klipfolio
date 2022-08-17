@@ -541,48 +541,40 @@
 }
 
 .question {
+  display: flex;
+  align-items: center;
   position: absolute;
-  display: inline;
-  width: 100%;
-  text-align: center;
 
+  &_1 {
+    top: 0;
+    left: 214px;
+  }
 
-  &__item {
-    width: 40%;
+  &_2 {
+    
+  }
+
+  &_3 {
 
   }
 
+  &_4 {
+
+  }
+
+  &__img {
+    width: 50px;
+    height: 100%;
+  }
+
   &__text {
+    max-width: 130px;
+    margin-left: 12px;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     color: $main-color;
   }
-
-  &__img {
-    position: absolute;
-
-
-    &_1 {
-      top: 10px;
-      left: 78px;
-  }
-
-    &_2 {
-      bottom: 30px;
-      left: 40px;
-  }
-
-    &_3 {
-      top: 130px;
-      right: 190px;
-  }
-
-    &_4 {
-      bottom: 122px;
-      right: 187px;
-  }
-}
 }
 
 
