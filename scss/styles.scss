@@ -376,6 +376,7 @@
 
     &::after {
       content: "%";
+
     }
 
     &::before {
@@ -566,8 +567,8 @@
   }
 
   &_5 {
-    top: 220px;
-    right: 142px;
+    top: 255px;
+    left: 142px;
   }
 
   &__img {
@@ -678,7 +679,7 @@
     margin: 0 auto;
     border-radius: 40px;
     background: $bg-color;
-    padding-bottom: 190px;
+    padding-bottom: 80px;
     padding-top: 80px;
 
     @media screen and (max-width: 1024px) {
@@ -688,7 +689,6 @@
   }
 
   &__box {
-    //padding: 80px 370px;
     max-width: 700px;
     margin: 0 auto;
 
