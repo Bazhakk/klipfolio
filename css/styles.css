@@ -402,6 +402,7 @@ ul {
 .info__percent {
   margin: 0 auto 10px;
   display: flex;
+  font-size: 16px;
   align-items: center;
   color: #34D08C;
 }
@@ -558,19 +559,19 @@ ul {
   left: 214px;
 }
 .question_2 {
-  top: 435px;
+  top: 335px;
   left: 214px;
 }
 .question_3 {
-  top: 190px;
-  right: 363px;
+  top: 250px;
+  right: 130px;
 }
 .question_4 {
-  top: 280px;
+  top: 80px;
   right: 187px;
 }
 .question_5 {
-  top: 255px;
+  top: 150px;
   left: 142px;
 }
 .question__img {

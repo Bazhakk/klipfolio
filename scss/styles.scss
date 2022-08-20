@@ -371,6 +371,7 @@
   &__percent {
     margin: 0 auto 10px;
     display: flex;
+    font-size: 16px;
     align-items: center;
     color: $bg-text;
 
@@ -552,22 +553,22 @@
   }
 
   &_2 {
-    top: 435px;
+    top: 335px;
     left: 214px;
   }
 
   &_3 {
-    top: 190px;
-    right: 363px;
+    top: 250px;
+    right: 130px;
   }
 
   &_4 {
-    top: 280px;
+    top: 80px;
     right: 187px;
   }
 
   &_5 {
-    top: 255px;
+    top: 150px;
     left: 142px;
   }
 
