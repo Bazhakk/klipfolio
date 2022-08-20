@@ -570,8 +570,8 @@ ul {
   right: 187px;
 }
 .question_5 {
-  top: 220px;
-  right: 142px;
+  top: 255px;
+  left: 142px;
 }
 .question__img {
   width: 50px;
@@ -665,15 +665,18 @@ ul {
 .action__container {
   position: relative;
   margin: 0 auto;
+  max-width: 1170px;
   border-radius: 40px;
   background: #303881;
-  padding-bottom: 190px;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 @media screen and (max-width: 1024px) {
   .action__container {
+    max-width: 50%;
     border-radius: 20px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 .action__box {
