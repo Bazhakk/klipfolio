@@ -212,6 +212,7 @@
       left: 40px;
 
     @media screen and (max-width: 1024px) {
+      max-width: 60px;
       top: 110px;
       left: 20px;
       }
@@ -222,6 +223,7 @@
       left: 5px;
       
     @media screen and (max-width: 1024px) {
+      max-width: 60px;
       top: 15px;
       left: 3px;
       }
@@ -230,11 +232,23 @@
     &_3 {
       top: 350px;
       left: -30px;
+
+      @media screen and (max-width: 1024px) {
+        max-width: 60px;
+        top: 150px;
+        left: -15px;
+        }
     }
 
     &_4 {
       top: 590px;
       left: -100px;
+
+      @media screen and (max-width: 1024px) {
+        max-width: 60px;
+        top: 300px;
+        left: -50px;
+        }
     }
 
     &_5 {
@@ -262,6 +276,12 @@
     &_7 {
       top: 215px;
       right: -30px;
+
+      @media screen and (max-width: 1024px) {
+        max-width: 60px;
+        top: 100px;
+        right: -15px;
+        }
     }
   }
 }
@@ -291,6 +311,7 @@
     gap: 16px;
 
     @media screen and (max-width: 1024px) {
+      //flex-direction: column-reverse;
       gap: 8px;
     }
   }
@@ -306,6 +327,7 @@
 
     @media screen and (max-width: 1024px) {
       flex-direction: column;
+      width: 50%;
       padding: 10px;
       border-radius: 11px;
     }
@@ -322,6 +344,7 @@
 
     @media screen and (max-width: 1024px) {
       flex-direction: column;
+      width: 100%;
       gap: 8px;
       margin-top: 8px;
     }
@@ -334,7 +357,6 @@
 
       @media screen and (max-width: 1024px) {
         gap: 8px;
-        width: 25%;
       }
     }
 
@@ -391,6 +413,7 @@
 
     @media screen and (max-width: 1024px) {
       margin: 0 auto 5px;
+      font-size: 8px;
     }
   }
 
@@ -428,9 +451,9 @@
     position: relative;
 
     @media screen and (max-width: 1024px) {
+      background-image: 50%;
       flex-direction: column-reverse;
-      padding-top: 130px;
-      padding-bottom: 130px;
+      padding: 150px 0 130px;
     }
 }
 
@@ -439,7 +462,7 @@
     margin: 0 auto;
 
     @media screen and (max-width: 1024px) {
-      max-width: 400px;
+      max-width: 350px;
       margin: 0 auto;
       }
 }
@@ -471,7 +494,8 @@
     line-height: 38px;
 
     @media screen and (max-width: 1024px) {
-     max-width: 100%;
+      font-size: 16px;
+      line-height: 19px;
       }
   }
 
@@ -481,9 +505,10 @@
     margin: 0 auto;
     margin-top: 50px;
 
-    // @media screen and (max-width: 1024px) {
-    //   max-width: 96vh;
-    // }
+     @media screen and (max-width: 1024px) {
+      max-width: 96vh;
+      margin-top: 25px;
+     }
   }
   }
 
@@ -496,11 +521,20 @@
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 1024px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+     }
   }
 
   &__box {
     max-width: 700px;
     margin: 0 auto;
+
+    @media screen and (max-width: 1024px) {
+      max-width: 350px;
+     }
   }
 
   &__title,
@@ -515,6 +549,11 @@
     font-size: 64px;
     line-height: 82px;
     letter-spacing: 2px;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 32px;
+      line-height: 41px;  
+     }
   }
   
   &__text {
@@ -523,6 +562,12 @@
     font-weight: 400;
     font-size: 31px;
     line-height: 38px;
+
+    @media screen and (max-width: 1024px) {
+      margin:0 0 8px 0;
+      font-size: 15px;
+      line-height: 19px;  
+     }
   }
 
   &__img {
@@ -530,14 +575,29 @@
     max-width: 490px;
     margin: 0 340px;
 
+    @media screen and (max-width: 1024px) {
+      margin:0 170px;
+      max-width: 250px;  
+     }
+
     &_1 {
       top: 50px;
       left: 78px;
+
+      @media screen and (max-width: 1024px) {
+        top: 25px;
+        left: 40px;  
+       }
     }
 
     &_2 {
       top: 300px;
       left: 78px;
+
+      @media screen and (max-width: 1024px) {
+        top: 150px;
+        left: 40px;  
+       }
     }
   }
 }
@@ -550,31 +610,61 @@
   &_1 {
     top: 0;
     left: 214px;
+    
+    @media screen and (max-width: 1024px) {
+      top: 0;
+      left: 110px;  
+     }
   }
 
   &_2 {
     top: 335px;
     left: 214px;
+
+    @media screen and (max-width: 1024px) {
+      top: 170px;
+      left: 110px;  
+     }
   }
 
   &_3 {
     top: 250px;
     right: 130px;
+
+    @media screen and (max-width: 1024px) {
+      top: 125px;
+      left: 65px;  
+     }
   }
 
   &_4 {
     top: 80px;
     right: 187px;
+
+    @media screen and (max-width: 1024px) {
+      top: 40px;
+      left: 90px;  
+     }
   }
 
   &_5 {
     top: 150px;
     left: 142px;
+
+    @media screen and (max-width: 1024px) {
+      top: 75px;
+      left: 70px;  
+     }
   }
 
   &__img {
     width: 50px;
     height: 100%;
+
+    @media screen and (max-width: 1024px) {
+      width: 25px; 
+      height: 50%;
+     }
   }
 
   &__text {
@@ -585,15 +675,25 @@
     line-height: 27px;
     color: $main-color;
 
+    @media screen and (max-width: 1024px) {
+      max-width: 65px;
+      margin-left: 6px;
+      font-size: 8px;
+      line-height: 14px;
+     }
+
   &__goal {
     font-weight: 400;
     font-size: 19px;
     line-height: 31px;
     color: black;
-  }
-  }
 
-  
+    @media screen and (max-width: 1024px) {
+      font-size: 10px;
+      line-height: 15px;
+     }
+  }
+  }
 }
 
 
@@ -626,6 +726,7 @@
 
     @media screen and (max-width: 1024px) {
       max-width: 96vw;
+      padding: 18px;
     }
   }
 
@@ -651,6 +752,7 @@
     letter-spacing: 2px;
 
     @media screen and (max-width: 1024px) {
+      margin: 0 0 8px 0;
       font-size: 34px;
       line-height: 40px;
     }
@@ -666,7 +768,6 @@
       line-height: 20px;
     }
   }
-
 }
 
 
@@ -687,8 +788,7 @@
     @media screen and (max-width: 1024px) {
       max-width: 50%;
       border-radius: 20px;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding: 40px;
     }
   }
 
@@ -714,6 +814,7 @@
       letter-spacing: 2px;
 
       @media screen and (max-width: 1024px) {
+        margin: 25px 0;
         font-size: 30px;
         line-height: 40px;
       }
@@ -726,6 +827,7 @@
       line-height: 30px;
 
       @media screen and (max-width: 1024px) {
+        margin-bottom: 23px;
         font-size: 10px;
         line-height: 15px;
       }
