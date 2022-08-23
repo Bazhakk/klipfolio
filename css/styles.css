@@ -88,7 +88,24 @@ ul {
 
 .footer-body {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 25px 0 50px;
+}
+.footer-body__item {
+  flex-basis: 24.5%;
+}
+@media screen and (max-width: 1024px) {
+  .footer-body__item {
+    flex-basis: 49%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-body__item {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
 }
 .footer-body__title, .footer-body__link {
   font-weight: 400;
