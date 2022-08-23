@@ -10,8 +10,22 @@ section {
   overflow-x: hidden;
 }
 
+main {
+  position: relative;
+}
+
+.gragient-body-bg {
+  position: absolute;
+  z-index: -1;
+  bottom: 580px;
+}
+
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
 
 ul {
