@@ -1,9 +1,9 @@
 /* Error: Top-level selectors may not contain the parent selector "&".
  *    ,
- * 80 | &__img {
- *    | ^^^^^^^
+ * 82 | &_img {
+ *    | ^^^^^^
  *    '
- *   scss\footer.scss 80:1  @import
+ *   scss\footer.scss 82:1  @import
  *   scss\styles.scss 4:9   root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 80 \2502  &__img {\d\a    \2502  ^^^^^^^\a    \2575 \a   scss\\footer.scss 80:1  @import\a   scss\\styles.scss 4:9   root stylesheet';
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 82 \2502  &_img {\d\a    \2502  ^^^^^^\a    \2575 \a   scss\\footer.scss 82:1  @import\a   scss\\styles.scss 4:9   root stylesheet';
 }
