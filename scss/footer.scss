@@ -13,6 +13,13 @@
 
     }
   }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $footer-color;
+  }
 }
 
 .footer-nav {
@@ -74,3 +81,15 @@
     line-height: 21px;
   }
 }
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+
+  $__link {
+   color: $footer-color;
+  }
+}
+
