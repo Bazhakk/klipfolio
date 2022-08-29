@@ -81,16 +81,36 @@
     font-size: 14px;
     line-height: 21px;
   }
+
+  &__img {
+    margin: 0 auto;
+    padding: 15px 135px;
+    max-width: 1170px;
+  }
+}
+
+
+.footer__block {
+  display: inline;
+  //justify-content: space-between;
+  //flex-wrap: wrap;
+  //padding: 25px 0 50px;
+  margin: 15px;
 }
 
 .footer-menu {
-  display: flex;
+  display: inline;
   align-items: center;
   font-size: 14px;
   line-height: 16px;
 
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+
   &__link {
-   color: $footer-color;
+    margin-left: 24px;
+    color: $footer-color;
   }
 }
 
