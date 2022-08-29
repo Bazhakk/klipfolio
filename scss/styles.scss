@@ -54,8 +54,8 @@
     color: $link-color;
 
     &:hover {
-      transform: scale(0.7);
-      text-decoration: dashed;
+      transform: scale(0.9);
+      text-decoration: underline;
     }
 
     &_dinamic {
@@ -74,6 +74,11 @@
     font-size: 13px;
     line-height: 22px;
     color: $link-color;
+  }
+
+  &:hover {
+      transform: scale(0.9);
+      text-decoration: underline;
   }
 }
 
@@ -226,6 +231,10 @@
     position: absolute;
     max-width: 50px;
 
+    &:hover {
+      transform: scale(0.6);
+    }
+
     &_1 {
       top: 220px;
       left: 40px;
@@ -342,6 +351,11 @@
     box-sizing: border-box;
     border-radius: 22px;
     background-color: $light-color;
+
+    &:hover {
+      transform: scale(0.9);
+      text-decoration: underline;
+    }
 
     @media screen and (max-width: 1024px) {
       width: 100%;
@@ -704,6 +718,10 @@
     font-size: 19px;
     line-height: 31px;
     color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
 
     @media screen and (max-width: 1024px) {
       font-size: 10px;

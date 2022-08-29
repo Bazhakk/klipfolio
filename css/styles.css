@@ -206,8 +206,8 @@ ul {
   color: #3D455C;
 }
 .main-menu__link:hover {
-  transform: scale(0.7);
-  text-decoration: dashed;
+  transform: scale(0.9);
+  text-decoration: underline;
 }
 .main-menu__link_dinamic {
   color: #333333;
@@ -223,6 +223,10 @@ ul {
   font-size: 13px;
   line-height: 22px;
   color: #3D455C;
+}
+.sign:hover {
+  transform: scale(0.9);
+  text-decoration: underline;
 }
 
 .succeed__container {
@@ -352,6 +356,9 @@ ul {
   position: absolute;
   max-width: 50px;
 }
+.stats__img:hover {
+  transform: scale(0.6);
+}
 .stats__img_1 {
   top: 220px;
   left: 40px;
@@ -468,6 +475,10 @@ ul {
   box-sizing: border-box;
   border-radius: 22px;
   background-color: #fff;
+}
+.info__item:hover {
+  transform: scale(0.9);
+  text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
   .info__item {
@@ -798,6 +809,9 @@ ul {
   font-size: 19px;
   line-height: 31px;
   color: black;
+}
+.question__text__goal:hover {
+  text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
   .question__text__goal {
