@@ -1,3 +1,4 @@
+@import "variables";
 .footer {
   margin-top: 190px;
   background-color: $dinamic-color;
@@ -88,7 +89,7 @@
   font-size: 14px;
   line-height: 16px;
 
-  $__link {
+  &__link {
    color: $footer-color;
   }
 }

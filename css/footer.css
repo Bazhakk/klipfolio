@@ -1,17 +1,79 @@
-/* Error: Undefined variable.
- *   ,
- * 3 |   background-color: $dinamic-color;
- *   |                     ^^^^^^^^^^^^^^
- *   '
- *   scss\footer.scss 3:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 3 \2502    background-color: $dinamic-color;\d\a   \2502                      ^^^^^^^^^^^^^^\a   \2575 \a   scss\\footer.scss 3:21  root stylesheet";
+.footer {
+  margin-top: 190px;
+  background-color: #333333;
 }
+.footer__container {
+  padding: 0 45px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AAAAAA;
+}
+
+.footer-nav {
+  padding: 30px 0 20px;
+  border-bottom: 1px solid #fff;
+}
+.footer-nav__link {
+  margin-right: 14px;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 15px;
+  color: #fff;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px 0 50px;
+}
+.footer-body__item {
+  flex-basis: 24.5%;
+}
+@media screen and (max-width: 1024px) {
+  .footer-body__item {
+    flex-basis: 49%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-body__item {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+.footer-body__title, .footer-body__link {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.footer-body__title {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  line-height: 23px;
+}
+.footer-body__list {
+  padding-left: 0;
+  margin: 0;
+}
+.footer-body__row {
+  line-height: 0;
+}
+.footer-body__link {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer-menu__link {
+  color: #AAAAAA;
+}
+
+/*# sourceMappingURL=footer.css.map */

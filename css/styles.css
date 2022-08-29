@@ -74,6 +74,13 @@ ul {
 .footer__container {
   padding: 0 45px;
 }
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AAAAAA;
+}
+
 .footer-nav {
   padding: 30px 0 20px;
   border-bottom: 1px solid #fff;
@@ -126,6 +133,16 @@ ul {
 .footer-body__link {
   font-size: 14px;
   line-height: 21px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer-menu__link {
+  color: #AAAAAA;
 }
 
 .header {
