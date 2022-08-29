@@ -53,6 +53,11 @@
     margin-left: 24px;
     color: $link-color;
 
+    &:hover {
+      transform: scale(0.7);
+      text-decoration: dashed;
+    }
+
     &_dinamic {
       color: $dinamic-color;
     }
